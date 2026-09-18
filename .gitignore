@@ -9,3 +9,4 @@ artifacts/
 .DS_Store
 
 data/
+supabase/.temp/
