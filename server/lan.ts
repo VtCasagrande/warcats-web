@@ -4,7 +4,7 @@ export function lanAddresses() {
   const addresses: string[] = [];
   for (const nets of Object.values(networkInterfaces())) {
     for (const net of nets ?? []) {
-      if (net.internal || (net.family !== 'IPv4' && net.family !== 4)) continue;
+      if (net.internal || net.family !== 'IPv4') continue;
       if (!addresses.includes(net.address)) addresses.push(net.address);
     }
   }
