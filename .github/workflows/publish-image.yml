@@ -25,3 +25,11 @@ jobs:
           tags: ghcr.io/vtcasagrande/warcats-web:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
+      - name: Make GHCR package public
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          owner="${GITHUB_REPOSITORY_OWNER}"
+          image="warcats-web"
+          gh api --method PATCH "/users/${owner}/packages/container/${image}" -f visibility=public
+          gh api "/users/${owner}/packages/container/${image}" --jq .visibility
