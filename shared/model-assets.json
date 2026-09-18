@@ -1,0 +1,226 @@
+{
+  "ar": {
+    "url": "/assets/models/warcats/ar.glb",
+    "bytes": 587812,
+    "atlasSize": 1024,
+    "size": [
+      0.09730468749999999,
+      0.3066015484929085,
+      0.9381640625
+    ],
+    "parts": [
+      "magazine",
+      "body",
+      "furniture"
+    ],
+    "triangles": 6871,
+    "muzzle": -0.6399816199999999,
+    "bore": 0.018,
+    "rail": 0.06218,
+    "support": -0.3307
+  },
+  "ak": {
+    "url": "/assets/models/warcats/ak.glb",
+    "bytes": 562316,
+    "atlasSize": 1024,
+    "size": [
+      0.0752734375,
+      0.2845703265070915,
+      0.9381640625
+    ],
+    "parts": [
+      "furniture",
+      "magazine",
+      "body"
+    ],
+    "triangles": 7029,
+    "muzzle": -0.6117816199999999,
+    "bore": 0.018,
+    "rail": 0.07064000000000001,
+    "support": -0.2649
+  },
+  "m40": {
+    "url": "/assets/models/warcats/m40.glb",
+    "bytes": 538312,
+    "atlasSize": 1024,
+    "size": [
+      0.11292968749999999,
+      0.2235547050833702,
+      1.1776953125
+    ],
+    "parts": [
+      "furniture",
+      "bolt",
+      "body"
+    ],
+    "triangles": 5844,
+    "muzzle": -0.8220471399999999,
+    "bore": 0.018,
+    "rail": 0.04042,
+    "support": -0.28629999999999994
+  },
+  "awm": {
+    "url": "/assets/models/warcats/awm.glb",
+    "bytes": 332456,
+    "atlasSize": 1024,
+    "size": [
+      0.1244140625,
+      0.29707033187150955,
+      1.2974609375000001
+    ],
+    "parts": [
+      "furniture",
+      "bolt",
+      "magazine",
+      "body"
+    ],
+    "triangles": 4464,
+    "muzzle": -0.9302299,
+    "bore": 0.018,
+    "rail": 0.04139999999999999,
+    "support": -0.30100000000000005
+  },
+  "pistol": {
+    "url": "/assets/models/warcats/pistol.glb",
+    "bytes": 544432,
+    "atlasSize": 1024,
+    "size": [
+      0.04693359375,
+      0.15767578929662704,
+      0.26947265625
+    ],
+    "parts": [
+      "magazine",
+      "furniture",
+      "body"
+    ],
+    "triangles": 7194,
+    "muzzle": -0.17383621,
+    "bore": 0.018,
+    "rail": 0.03177000000000001,
+    "support": 0.0338
+  },
+  "shotgun": {
+    "url": "/assets/models/warcats/shotgun.glb",
+    "bytes": 533092,
+    "atlasSize": 1024,
+    "size": [
+      0.09761718750000001,
+      0.2171484678983689,
+      1.0180078125
+    ],
+    "parts": [
+      "furniture",
+      "body"
+    ],
+    "triangles": 7307,
+    "muzzle": -0.64770346,
+    "bore": 0.018,
+    "rail": 0.033299999999999996,
+    "support": -0.3427
+  },
+  "jeep": {
+    "url": "/assets/models/warcats/jeep.glb",
+    "bytes": 534580,
+    "atlasSize": 1024,
+    "size": [
+      2.3943359374999997,
+      2.1060546875,
+      4.0919921875
+    ],
+    "parts": [
+      "wheel-left-front",
+      "body",
+      "wheel-right-front",
+      "wheel-left-rear",
+      "wheel-right-rear"
+    ],
+    "triangles": 7387
+  },
+  "helicopter": {
+    "url": "/assets/models/warcats/helicopter.glb",
+    "bytes": 541096,
+    "atlasSize": 1024,
+    "size": [
+      11.651953124999999,
+      3.8363281249999996,
+      12.176171875
+    ],
+    "parts": [
+      "body",
+      "rotor",
+      "tail-rotor"
+    ],
+    "triangles": 7484
+  },
+  "crate": {
+    "url": "/assets/models/warcats/crate.glb",
+    "bytes": 403664,
+    "atlasSize": 512,
+    "size": [
+      0.87828125,
+      0.8542187762260437,
+      0.8060937762260437
+    ],
+    "parts": [
+      "body"
+    ],
+    "triangles": 7213
+  },
+  "fuel": {
+    "url": "/assets/models/warcats/fuel.glb",
+    "bytes": 154828,
+    "atlasSize": 512,
+    "size": [
+      0.7154296875,
+      1.0978515625,
+      0.7154297530651094
+    ],
+    "parts": [
+      "body"
+    ],
+    "triangles": 3892
+  },
+  "generator": {
+    "url": "/assets/models/warcats/generator.glb",
+    "bytes": 226756,
+    "atlasSize": 512,
+    "size": [
+      0.7947265625000001,
+      1.008007773756981,
+      1.2974609762430191
+    ],
+    "parts": [
+      "body"
+    ],
+    "triangles": 3700
+  },
+  "radar": {
+    "url": "/assets/models/warcats/radar.glb",
+    "bytes": 207016,
+    "atlasSize": 512,
+    "size": [
+      2.0068359375,
+      2.4951171875,
+      1.5478515625
+    ],
+    "parts": [
+      "body"
+    ],
+    "triangles": 3943
+  },
+  "truck": {
+    "url": "/assets/models/warcats/truck.glb",
+    "bytes": 474404,
+    "atlasSize": 512,
+    "size": [
+      2.8546875000000003,
+      3.1921875,
+      7.1859375000000005
+    ],
+    "parts": [
+      "body"
+    ],
+    "triangles": 7341
+  }
+}

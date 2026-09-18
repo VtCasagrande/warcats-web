@@ -1,0 +1,32 @@
+import {chromium} from 'playwright';
+import {writeFile,mkdir} from 'node:fs/promises';
+import assert from 'node:assert/strict';
+const base=process.env.TEST_URL||'http://localhost:5173';
+await mkdir('artifacts/competitive',{recursive:true});
+const browser=await chromium.launch({channel:'chrome',headless:true}),page=await browser.newPage({viewport:{width:1440,height:900}}),errors=[];
+page.on('pageerror',e=>errors.push(e.stack));
+const ready=()=>page.waitForFunction(()=>window.__WAR_CATS__&&!document.getElementById('loading'));
+try{
+ await page.goto(base);await ready();await page.getByRole('button',{name:'ARSENAL',exact:true}).click();
+ await page.locator('[data-class="medic"]').click();await page.locator('[data-sight="optic"]').click();await page.locator('[data-muzzle="supp"]').click();await page.locator('[data-grip="vert"]').click();await page.locator('[data-skin="desert"]').click();
+ await page.locator('#preset-name').fill('Recon tático');await page.locator('[data-preset-save="0"]').click();
+ await page.reload();await ready();await page.getByRole('button',{name:'ARSENAL',exact:true}).click();
+ await page.locator('[data-sight="iron"]').click();await page.locator('[data-preset-use="0"]').click();
+ const preset=await page.evaluate(()=>({settings:JSON.parse(localStorage.getItem('warcats-settings')),kits:JSON.parse(localStorage.getItem('warcats-loadouts'))}));
+ assert.equal(preset.settings.sight,'optic');assert.equal(preset.settings.muzzle,'supp');assert.equal(preset.settings.class,'medic');assert.equal(preset.kits[0].name,'Recon tático');
+ await page.waitForTimeout(800);await page.screenshot({path:'artifacts/competitive/loadouts-desktop.png'});
+ await page.getByRole('button',{name:'CONFIRMAR EQUIPAMENTO'}).click();await page.getByRole('button',{name:/ENTRAR EM OPERAÇÃO/}).click();await page.waitForFunction(()=>window.__WAR_CATS__.player?.sight==='optic');
+ assert.equal(await page.evaluate(()=>window.__WAR_CATS__.player.credits),8960);
+ await page.keyboard.press('Escape');await page.locator('#settings-shop').click();await page.locator('[data-shop-sight="holo"]').click();
+ assert.match(await page.locator('#shop-kit-price').innerText(),/220 CR/);await page.locator('#shop-kit-buy').click();
+ await page.waitForFunction(()=>window.__WAR_CATS__.player.sight==='holo');assert.equal(await page.evaluate(()=>window.__WAR_CATS__.player.credits),8740);
+ await page.locator('[data-shop-sight="optic"]').click();assert.match(await page.locator('#shop-kit-price').innerText(),/0 CR/);await page.locator('#shop-kit-buy').click();await page.waitForFunction(()=>window.__WAR_CATS__.player.sight==='optic');
+ assert.equal(await page.evaluate(()=>window.__WAR_CATS__.player.credits),8740);
+ await page.locator('#shop-kit-weapon').selectOption('awm');await page.locator('#shop-kit-buy').click();await page.waitForFunction(()=>window.__WAR_CATS__.player.weapon==='awm');assert.equal(await page.evaluate(()=>window.__WAR_CATS__.player.credits),5940);
+ await page.screenshot({path:'artifacts/competitive/gunsmith-desktop.png'});
+ await page.locator('#shop-close').click();await page.getByRole('button',{name:'SAIR DA OPERAÇÃO'}).click();await page.setViewportSize({width:390,height:844});await page.getByRole('button',{name:'ARSENAL',exact:true}).click();await page.waitForTimeout(300);
+ assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await page.screenshot({path:'artifacts/competitive/loadouts-mobile.png'});
+ assert.deepEqual(errors,[]);
+ await writeFile('artifacts/competitive/browser-loadouts.json',JSON.stringify({preset:preset.kits[0],localPurchases:[{cost:1040,balance:8960},{cost:220,balance:8740},{cost:0,balance:8740},{cost:2800,balance:5940}],mobileOverflow:false,errors},null,2));
+ console.log('PASS saved presets, real local purchase debit, paid attachment reuse, weapon switch, mobile layout');
+}finally{await browser.close();}

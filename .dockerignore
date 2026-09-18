@@ -1,0 +1,13 @@
+node_modules
+dist
+dist-server
+artifacts
+.git
+.env
+.env.*
+*.log
+data
+tests
+docs
+plans
+*.md

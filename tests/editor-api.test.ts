@@ -1,0 +1,26 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {createServer} from 'node:http';import {spawn} from 'node:child_process';import {mkdtemp,rm} from 'node:fs/promises';import {tmpdir} from 'node:os';import {join} from 'node:path';import {setTimeout as delay} from 'node:timers/promises';import {createHash} from 'node:crypto';import {WebSocket} from 'ws';
+import {newMapDocument} from '../shared/map-editor';import {applyTerrainBrush} from '../src/editor/terrain-brush';import {unpackState} from '../shared/protocol';
+test('editor HTTP auth, immutable publication, terrain persistence and custom-map WebSocket handshake', {timeout:25000},async t=>{
+ const dir=await mkdtemp(join(tmpdir(),'warcats-editor-api-')),token='a'.repeat(64),hash=createHash('sha256').update(token).digest('hex'),id='a0000000-0000-4000-8000-000000000001';let role='admin';
+ const upstream=createServer((req,res)=>{res.setHeader('Content-Type','application/json');const url=new URL(req.url!,'http://localhost');let data:unknown=[];
+  if(url.pathname==='/rest/v1/game_sessions'&&url.searchParams.get('token_hash')===`eq.${hash}`)data=[{account_id:id}];
+  if(url.pathname==='/rest/v1/player_profiles'&&url.searchParams.get('id')===`eq.${id}`)data=[{id,username:'qa_admin',display_name:'Editor QA',role,email:'qa@example.test',cash:10000,kills:0,deaths:0,wins:0,rounds:0,objective_seconds:0,created_at:new Date().toISOString(),revision:0}];
+  res.end(JSON.stringify(data));
+ });await new Promise<void>(r=>upstream.listen(0,'127.0.0.1',r));const authPort=(upstream.address() as any).port;
+ const port=41000+process.pid%5000,origin=`http://localhost:${port}`,cookie=`warcats_session=${token}`;
+ const child=spawn(process.execPath,['--import','tsx','server/index.ts'],{env:{...process.env,ACCOUNT_BACKEND:'supabase',SUPABASE_URL:`http://127.0.0.1:${authPort}`,SUPABASE_ANON_KEY:'test-anon',SUPABASE_SERVICE_ROLE_KEY:'test-service',DATA_DIR:dir,MAP_DATA_DIR:join(dir,'maps'),PORT:String(port),ALLOWED_ORIGINS:origin},stdio:['ignore','pipe','pipe']});let logs='';child.stderr.on('data',d=>logs+=d);child.stdout.on('data',d=>logs+=d);const sockets:WebSocket[]=[];
+ t.after(async()=>{sockets.forEach(s=>s.terminate());child.kill('SIGTERM');await delay(150);upstream.closeAllConnections();upstream.close();await rm(dir,{recursive:true,force:true});});
+ for(let n=0;n<70;n++){try{if((await fetch(origin+'/api/health')).ok)break;}catch{}await delay(100);}assert.equal((await fetch(origin+'/api/health')).status,200,logs);
+ const request=(path:string,body?:unknown,auth=true,from=origin)=>fetch(origin+path,{method:body?'POST':'GET',headers:{Cookie:auth?cookie:'',Origin:from,...(body?{'Content-Type':'application/json'}:{})},body:body?JSON.stringify(body):undefined});
+ assert.equal((await request('/api/admin/maps',undefined,false)).status,401);role='player';assert.equal((await request('/api/admin/maps')).status,403);role='admin';assert.equal((await request('/api/admin/maps')).status,200);
+ const doc=newMapDocument(null,'qa-city');applyTerrainBrush(doc,0,0,{mode:'raise',height:0,radius:40,strength:6,paint:'grass'},1);applyTerrainBrush(doc,0,0,{mode:'paint',height:0,radius:40,strength:6,paint:'sand'},1);
+ assert.equal((await request('/api/admin/maps/save',{document:doc},true,'https://other.example')).status,403);
+ let response=await request('/api/admin/maps/save',{document:doc});assert.equal(response.status,200,await response.clone().text());const saved=(await response.json() as any).record.draft;assert.equal(saved.revision,1);assert.deepEqual(saved.terrain,doc.terrain);
+ assert.equal((await request('/api/admin/maps/save',{document:doc})).status,409);assert.deepEqual((await (await request('/api/maps/catalog')).json() as any).maps,[]);
+ assert.equal((await request('/api/admin/maps/publish',{id:doc.id,revision:1})).status,200);const published=(await (await request('/api/maps/catalog')).json() as any).maps[0];assert.equal(published.revision,1);
+ const ws=new WebSocket(origin.replace('http','ws')+'/ws',{origin});sockets.push(ws);const packets:any[]=[];ws.on('message',d=>packets.push(JSON.parse(d.toString())));await new Promise<void>((r,e)=>{ws.once('open',r);ws.once('error',e);});ws.send(JSON.stringify({type:'join',options:{name:'QA',team:0,weapon:'ar',mapId:'custom-qa-city-r1',botCount:0}}));for(let n=0;n<80&&!packets.some(p=>p.type==='welcome');n++)await delay(50);
+ const mapIndex=packets.findIndex(p=>p.type==='map-definition'),welcomeIndex=packets.findIndex(p=>p.type==='welcome');assert.ok(mapIndex>=0&&welcomeIndex>mapIndex,JSON.stringify(packets));assert.deepEqual(packets[mapIndex].map.terrain,doc.terrain);assert.equal(unpackState(packets[welcomeIndex].state).mapId,'custom-qa-city-r1');
+ saved.name='Next version';assert.equal((await request('/api/admin/maps/save',{document:saved})).status,200);assert.equal((await (await request('/api/maps/catalog')).json() as any).maps[0].name,published.name);
+ role='player';assert.equal((await request('/api/admin/maps/publish',{id:doc.id,revision:2})).status,403);
+ assert.equal((await request('/api/unknown')).status,404);
+});

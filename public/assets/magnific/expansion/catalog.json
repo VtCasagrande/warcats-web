@@ -1,0 +1,1438 @@
+{
+  "generated": 194,
+  "spent": 19562,
+  "remaining": 0,
+  "assets": [
+    {
+      "name": "Caixa de suprimentos",
+      "category": "MODELOS 3D",
+      "url": "/assets/magnific/expansion/models/crate.glb",
+      "source": "https://www.magnific.com/app/creation/s7RtrMol8e?utm_source=mcp&utm_medium=ai_connector",
+      "preview": "/assets/magnific/expansion/ref/crate.webp",
+      "bytes": 646976
+    },
+    {
+      "name": "Caminhão de carga",
+      "category": "MODELOS 3D",
+      "url": "/assets/magnific/expansion/models/truck.glb",
+      "source": "https://www.magnific.com/app/creation/8aKREasIrU?utm_source=mcp&utm_medium=ai_connector",
+      "preview": "/assets/magnific/expansion/ref/truck.webp",
+      "bytes": 724756
+    },
+    {
+      "name": "Carabina MK18",
+      "category": "MODELOS 3D",
+      "url": "/assets/magnific/expansion/models/ar.glb",
+      "source": "https://www.magnific.com/app/creation/1l9Xq0Or4r?utm_source=mcp&utm_medium=ai_connector",
+      "preview": "/assets/magnific/expansion/ref/ar.webp",
+      "bytes": 734792
+    },
+    {
+      "name": "Espingarda tática",
+      "category": "MODELOS 3D",
+      "url": "/assets/magnific/expansion/models/shotgun.glb",
+      "source": "https://www.magnific.com/app/creation/SyAvL6PUb8?utm_source=mcp&utm_medium=ai_connector",
+      "preview": "/assets/magnific/expansion/ref/shotgun.webp",
+      "bytes": 606280
+    },
+    {
+      "name": "Fuzil AK",
+      "category": "MODELOS 3D",
+      "url": "/assets/magnific/expansion/models/ak.glb",
+      "source": "https://www.magnific.com/app/creation/aFLzIcSfSh?utm_source=mcp&utm_medium=ai_connector",
+      "preview": "/assets/magnific/expansion/ref/ak.webp",
+      "bytes": 681288
+    },
+    {
+      "name": "Gerador de campo",
+      "category": "MODELOS 3D",
+      "url": "/assets/magnific/expansion/models/generator.glb",
+      "source": "https://www.magnific.com/app/creation/jUiI7ujLD0?utm_source=mcp&utm_medium=ai_connector",
+      "preview": "/assets/magnific/expansion/ref/generator.webp",
+      "bytes": 460972
+    },
+    {
+      "name": "Helicóptero utilitário",
+      "category": "MODELOS 3D",
+      "url": "/assets/magnific/expansion/models/helicopter.glb",
+      "source": "https://www.magnific.com/app/creation/yicQUeiPW9?utm_source=mcp&utm_medium=ai_connector",
+      "preview": "/assets/magnific/expansion/ref/helicopter.webp",
+      "bytes": 699412
+    },
+    {
+      "name": "Jipe de transporte",
+      "category": "MODELOS 3D",
+      "url": "/assets/magnific/expansion/models/jeep.glb",
+      "source": "https://www.magnific.com/app/creation/P30Fwcu42C?utm_source=mcp&utm_medium=ai_connector",
+      "preview": "/assets/magnific/expansion/ref/jeep.webp",
+      "bytes": 684320
+    },
+    {
+      "name": "Pistola de serviço",
+      "category": "MODELOS 3D",
+      "url": "/assets/magnific/expansion/models/pistol.glb",
+      "source": "https://www.magnific.com/app/creation/rgNB5R5xtc?utm_source=mcp&utm_medium=ai_connector",
+      "preview": "/assets/magnific/expansion/ref/pistol.webp",
+      "bytes": 636652
+    },
+    {
+      "name": "Radar de campo",
+      "category": "MODELOS 3D",
+      "url": "/assets/magnific/expansion/models/radar.glb",
+      "source": "https://www.magnific.com/app/creation/1l9BS5nr4r?utm_source=mcp&utm_medium=ai_connector",
+      "preview": "/assets/magnific/expansion/ref/radar.webp",
+      "bytes": 340804
+    },
+    {
+      "name": "Rifle AWM",
+      "category": "MODELOS 3D",
+      "url": "/assets/magnific/expansion/models/awm.glb",
+      "source": "https://www.magnific.com/app/creation/yicQUOqPW9?utm_source=mcp&utm_medium=ai_connector",
+      "preview": "/assets/magnific/expansion/ref/awm.webp",
+      "bytes": 512480
+    },
+    {
+      "name": "Rifle M40",
+      "category": "MODELOS 3D",
+      "url": "/assets/magnific/expansion/models/m40.glb",
+      "source": "https://www.magnific.com/app/creation/fHsntBVCDY?utm_source=mcp&utm_medium=ai_connector",
+      "preview": "/assets/magnific/expansion/ref/m40.webp",
+      "bytes": 731048
+    },
+    {
+      "name": "Tambor de combustível",
+      "category": "MODELOS 3D",
+      "url": "/assets/magnific/expansion/models/fuel.glb",
+      "source": "https://www.magnific.com/app/creation/3ze1Yx0REY?utm_source=mcp&utm_medium=ai_connector",
+      "preview": "/assets/magnific/expansion/ref/fuel.webp",
+      "bytes": 243816
+    },
+    {
+      "name": "Bosque",
+      "category": "PINTURAS",
+      "url": "/assets/magnific/expansion/skins/woodland.webp",
+      "source": "https://www.magnific.com/app/creation/yicQr1EPW9?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 72750
+    },
+    {
+      "name": "Brasa",
+      "category": "PINTURAS",
+      "url": "/assets/magnific/expansion/skins/ember.webp",
+      "source": "https://www.magnific.com/app/creation/MBEOZt7DCm?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 45258
+    },
+    {
+      "name": "Carbono",
+      "category": "PINTURAS",
+      "url": "/assets/magnific/expansion/skins/carbon.webp",
+      "source": "https://www.magnific.com/app/creation/gO2hqJlSXO?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 95726
+    },
+    {
+      "name": "Concreto",
+      "category": "PINTURAS",
+      "url": "/assets/magnific/expansion/skins/urban.webp",
+      "source": "https://www.magnific.com/app/creation/iGpKgik3uK?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 65448
+    },
+    {
+      "name": "Duna",
+      "category": "PINTURAS",
+      "url": "/assets/magnific/expansion/skins/desert.webp",
+      "source": "https://www.magnific.com/app/creation/lJZmFK7gv9?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 53944
+    },
+    {
+      "name": "Geada",
+      "category": "PINTURAS",
+      "url": "/assets/magnific/expansion/skins/arctic.webp",
+      "source": "https://www.magnific.com/app/creation/eIF4AMqdqL?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 68760
+    },
+    {
+      "name": "Maré",
+      "category": "PINTURAS",
+      "url": "/assets/magnific/expansion/skins/naval.webp",
+      "source": "https://www.magnific.com/app/creation/VXCJRaEMMU?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 44360
+    },
+    {
+      "name": "Aço pintado",
+      "category": "MATERIAIS",
+      "url": "/assets/magnific/expansion/materials/steel.webp",
+      "source": "https://www.magnific.com/app/creation/Lw3I1jWswO?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 42988
+    },
+    {
+      "name": "Aço pintado · relevo",
+      "category": "MATERIAIS",
+      "url": "/assets/magnific/expansion/materials/steel-normal.webp",
+      "bytes": 18824
+    },
+    {
+      "name": "Aço pintado · rugosidade",
+      "category": "MATERIAIS",
+      "url": "/assets/magnific/expansion/materials/steel-roughness.webp",
+      "bytes": 102058
+    },
+    {
+      "name": "Borracha",
+      "category": "MATERIAIS",
+      "url": "/assets/magnific/expansion/materials/rubber.webp",
+      "source": "https://www.magnific.com/app/creation/IfkRBl3tvE?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 91540
+    },
+    {
+      "name": "Borracha · relevo",
+      "category": "MATERIAIS",
+      "url": "/assets/magnific/expansion/materials/rubber-normal.webp",
+      "bytes": 161696
+    },
+    {
+      "name": "Borracha · rugosidade",
+      "category": "MATERIAIS",
+      "url": "/assets/magnific/expansion/materials/rubber-roughness.webp",
+      "bytes": 141632
+    },
+    {
+      "name": "Cascalho",
+      "category": "MATERIAIS",
+      "url": "/assets/magnific/expansion/materials/gravel.webp",
+      "source": "https://www.magnific.com/app/creation/mEr2oBOhJQ?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 107932
+    },
+    {
+      "name": "Cascalho · relevo",
+      "category": "MATERIAIS",
+      "url": "/assets/magnific/expansion/materials/gravel-normal.webp",
+      "bytes": 177098
+    },
+    {
+      "name": "Cascalho · rugosidade",
+      "category": "MATERIAIS",
+      "url": "/assets/magnific/expansion/materials/gravel-roughness.webp",
+      "bytes": 119012
+    },
+    {
+      "name": "Ferrugem",
+      "category": "MATERIAIS",
+      "url": "/assets/magnific/expansion/materials/rust.webp",
+      "source": "https://www.magnific.com/app/creation/3zekNB6REY?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 102390
+    },
+    {
+      "name": "Ferrugem · relevo",
+      "category": "MATERIAIS",
+      "url": "/assets/magnific/expansion/materials/rust-normal.webp",
+      "bytes": 126606
+    },
+    {
+      "name": "Ferrugem · rugosidade",
+      "category": "MATERIAIS",
+      "url": "/assets/magnific/expansion/materials/rust-roughness.webp",
+      "bytes": 116750
+    },
+    {
+      "name": "Lona de saco de areia",
+      "category": "MATERIAIS",
+      "url": "/assets/magnific/expansion/materials/sandbags.webp",
+      "source": "https://www.magnific.com/app/creation/u5ScfjsQLD?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 135968
+    },
+    {
+      "name": "Lona de saco de areia · relevo",
+      "category": "MATERIAIS",
+      "url": "/assets/magnific/expansion/materials/sandbags-normal.webp",
+      "bytes": 150246
+    },
+    {
+      "name": "Lona de saco de areia · rugosidade",
+      "category": "MATERIAIS",
+      "url": "/assets/magnific/expansion/materials/sandbags-roughness.webp",
+      "bytes": 145092
+    },
+    {
+      "name": "Madeira",
+      "category": "MATERIAIS",
+      "url": "/assets/magnific/expansion/materials/wood.webp",
+      "source": "https://www.magnific.com/app/creation/KLPeqlckqp?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 62208
+    },
+    {
+      "name": "Madeira · relevo",
+      "category": "MATERIAIS",
+      "url": "/assets/magnific/expansion/materials/wood-normal.webp",
+      "bytes": 21648
+    },
+    {
+      "name": "Madeira · rugosidade",
+      "category": "MATERIAIS",
+      "url": "/assets/magnific/expansion/materials/wood-roughness.webp",
+      "bytes": 19846
+    },
+    {
+      "name": "Pavimento",
+      "category": "MATERIAIS",
+      "url": "/assets/magnific/expansion/materials/road.webp",
+      "source": "https://www.magnific.com/app/creation/s7Rtrqnl8e?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 119418
+    },
+    {
+      "name": "Pavimento · relevo",
+      "category": "MATERIAIS",
+      "url": "/assets/magnific/expansion/materials/road-normal.webp",
+      "bytes": 175516
+    },
+    {
+      "name": "Pavimento · rugosidade",
+      "category": "MATERIAIS",
+      "url": "/assets/magnific/expansion/materials/road-roughness.webp",
+      "bytes": 132198
+    },
+    {
+      "name": "Placas de concreto",
+      "category": "MATERIAIS",
+      "url": "/assets/magnific/expansion/materials/concrete-tiles.webp",
+      "source": "https://www.magnific.com/app/creation/s7RtrCbl8e?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 70070
+    },
+    {
+      "name": "Placas de concreto · relevo",
+      "category": "MATERIAIS",
+      "url": "/assets/magnific/expansion/materials/concrete-tiles-normal.webp",
+      "bytes": 35490
+    },
+    {
+      "name": "Placas de concreto · rugosidade",
+      "category": "MATERIAIS",
+      "url": "/assets/magnific/expansion/materials/concrete-tiles-roughness.webp",
+      "bytes": 9842
+    },
+    {
+      "name": "Reboco",
+      "category": "MATERIAIS",
+      "url": "/assets/magnific/expansion/materials/plaster.webp",
+      "source": "https://www.magnific.com/app/creation/s7RtrIPl8e?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 76508
+    },
+    {
+      "name": "Reboco · relevo",
+      "category": "MATERIAIS",
+      "url": "/assets/magnific/expansion/materials/plaster-normal.webp",
+      "bytes": 113468
+    },
+    {
+      "name": "Reboco · rugosidade",
+      "category": "MATERIAIS",
+      "url": "/assets/magnific/expansion/materials/plaster-roughness.webp",
+      "bytes": 59200
+    },
+    {
+      "name": "Telhado",
+      "category": "MATERIAIS",
+      "url": "/assets/magnific/expansion/materials/roof.webp",
+      "source": "https://www.magnific.com/app/creation/eIF4VNcdqL?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 32310
+    },
+    {
+      "name": "Telhado · relevo",
+      "category": "MATERIAIS",
+      "url": "/assets/magnific/expansion/materials/roof-normal.webp",
+      "bytes": 20290
+    },
+    {
+      "name": "Telhado · rugosidade",
+      "category": "MATERIAIS",
+      "url": "/assets/magnific/expansion/materials/roof-roughness.webp",
+      "bytes": 19626
+    },
+    {
+      "name": "Tijolo",
+      "category": "MATERIAIS",
+      "url": "/assets/magnific/expansion/materials/brick.webp",
+      "source": "https://www.magnific.com/app/creation/79nCgmOJAL?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 90892
+    },
+    {
+      "name": "Tijolo · relevo",
+      "category": "MATERIAIS",
+      "url": "/assets/magnific/expansion/materials/brick-normal.webp",
+      "bytes": 89126
+    },
+    {
+      "name": "Tijolo · rugosidade",
+      "category": "MATERIAIS",
+      "url": "/assets/magnific/expansion/materials/brick-roughness.webp",
+      "bytes": 71322
+    },
+    {
+      "name": "Vidro",
+      "category": "MATERIAIS",
+      "url": "/assets/magnific/expansion/materials/glass.webp",
+      "source": "https://www.magnific.com/app/creation/0eawYMnTfW?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 96472
+    },
+    {
+      "name": "Vidro · relevo",
+      "category": "MATERIAIS",
+      "url": "/assets/magnific/expansion/materials/glass-normal.webp",
+      "bytes": 123914
+    },
+    {
+      "name": "Vidro · rugosidade",
+      "category": "MATERIAIS",
+      "url": "/assets/magnific/expansion/materials/glass-roughness.webp",
+      "bytes": 95694
+    },
+    {
+      "name": "Arsenal",
+      "category": "ÍCONES",
+      "url": "/assets/magnific/expansion/icons/arsenal.svg",
+      "source": "https://www.magnific.com/app/creation/lJZmjaEgv9?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 254
+    },
+    {
+      "name": "Configurações",
+      "category": "ÍCONES",
+      "url": "/assets/magnific/expansion/icons/settings.svg",
+      "source": "https://www.magnific.com/app/creation/jUi81kYLD0?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 262
+    },
+    {
+      "name": "Conta",
+      "category": "ÍCONES",
+      "url": "/assets/magnific/expansion/icons/account.svg",
+      "source": "https://www.magnific.com/app/creation/P30FJSn42C?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 268
+    },
+    {
+      "name": "Marcação",
+      "category": "ÍCONES",
+      "url": "/assets/magnific/expansion/icons/spot.svg",
+      "source": "https://www.magnific.com/app/creation/3zekNkdREY?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 225
+    },
+    {
+      "name": "Operações",
+      "category": "ÍCONES",
+      "url": "/assets/magnific/expansion/icons/operations.svg",
+      "source": "https://www.magnific.com/app/creation/gO2hLb8SXO?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 255
+    },
+    {
+      "name": "Pilotagem",
+      "category": "ÍCONES",
+      "url": "/assets/magnific/expansion/icons/pilot.svg",
+      "source": "https://www.magnific.com/app/creation/Lw3IrD1swO?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 297
+    },
+    {
+      "name": "Pinturas",
+      "category": "ÍCONES",
+      "url": "/assets/magnific/expansion/icons/skins.svg",
+      "source": "https://www.magnific.com/app/creation/yicQ7kBPW9?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 234
+    },
+    {
+      "name": "Supressão",
+      "category": "ÍCONES",
+      "url": "/assets/magnific/expansion/icons/suppression.svg",
+      "source": "https://www.magnific.com/app/creation/DouyTUypcl?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 236
+    },
+    {
+      "name": "Transporte",
+      "category": "ÍCONES",
+      "url": "/assets/magnific/expansion/icons/transport.svg",
+      "source": "https://www.magnific.com/app/creation/cpvUnKq0eP?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 335
+    },
+    {
+      "name": "Bolt action",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/bolt-action.mp3",
+      "source": "https://www.magnific.com/app/creation/iGpK6Vr3uK?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Bolt action 2",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/bolt-action-2.mp3",
+      "source": "https://www.magnific.com/app/creation/iGpK6Vr3uK?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Bullet crack",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/bullet-crack.mp3",
+      "source": "https://www.magnific.com/app/creation/O6Wu70eynm?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Bullet crack 2",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/bullet-crack-2.mp3",
+      "source": "https://www.magnific.com/app/creation/O6Wu70eynm?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Bullet whiz",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/bullet-whiz.mp3",
+      "source": "https://www.magnific.com/app/creation/tC1Z8lfmZJ?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Bullet whiz 2",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/bullet-whiz-2.mp3",
+      "source": "https://www.magnific.com/app/creation/tC1Z8lfmZJ?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Cloth step",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/cloth-step.mp3",
+      "source": "https://www.magnific.com/app/creation/rgNB1N0xtc?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Cloth step 2",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/cloth-step-2.mp3",
+      "source": "https://www.magnific.com/app/creation/rgNB1N0xtc?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Distant battle",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/distant-battle.mp3",
+      "source": "https://www.magnific.com/app/creation/8aKRumrIrU?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 481115
+    },
+    {
+      "name": "Distant battle 2",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/distant-battle-2.mp3",
+      "source": "https://www.magnific.com/app/creation/8aKRumrIrU?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 481115
+    },
+    {
+      "name": "Empty trigger",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/empty-trigger.mp3",
+      "source": "https://www.magnific.com/app/creation/gO2hlN8SXO?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Empty trigger 2",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/empty-trigger-2.mp3",
+      "source": "https://www.magnific.com/app/creation/gO2hlN8SXO?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Fire ak",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/fire-ak.mp3",
+      "source": "https://www.magnific.com/app/creation/eIF9ozTdqL?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Fire ak 2",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/fire-ak-2.mp3",
+      "source": "https://www.magnific.com/app/creation/eIF9ozTdqL?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Fire ak 3",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/fire-ak-3.mp3",
+      "source": "https://www.magnific.com/app/creation/eIF9ozTdqL?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Fire ar",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/fire-ar.mp3",
+      "source": "https://www.magnific.com/app/creation/vQjzEzFa47?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Fire ar 2",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/fire-ar-2.mp3",
+      "source": "https://www.magnific.com/app/creation/vQjzEzFa47?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Fire ar 3",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/fire-ar-3.mp3",
+      "source": "https://www.magnific.com/app/creation/vQjzEzFa47?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Fire awm",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/fire-awm.mp3",
+      "source": "https://www.magnific.com/app/creation/6ADKZ6UiJO?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Fire awm 2",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/fire-awm-2.mp3",
+      "source": "https://www.magnific.com/app/creation/6ADKZ6UiJO?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Fire awm 3",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/fire-awm-3.mp3",
+      "source": "https://www.magnific.com/app/creation/6ADKZ6UiJO?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Fire dmr",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/fire-dmr.mp3",
+      "source": "https://www.magnific.com/app/creation/gO2v7FySXO?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Fire dmr 2",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/fire-dmr-2.mp3",
+      "source": "https://www.magnific.com/app/creation/gO2v7FySXO?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Fire dmr 3",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/fire-dmr-3.mp3",
+      "source": "https://www.magnific.com/app/creation/gO2v7FySXO?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Fire knife",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/fire-knife.mp3",
+      "source": "https://www.magnific.com/app/creation/w4zCPAd7EI?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Fire knife 2",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/fire-knife-2.mp3",
+      "source": "https://www.magnific.com/app/creation/w4zCPAd7EI?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Fire knife 3",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/fire-knife-3.mp3",
+      "source": "https://www.magnific.com/app/creation/w4zCPAd7EI?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Fire lmg",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/fire-lmg.mp3",
+      "source": "https://www.magnific.com/app/creation/SyAaJrEUb8?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Fire lmg 2",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/fire-lmg-2.mp3",
+      "source": "https://www.magnific.com/app/creation/SyAaJrEUb8?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Fire lmg 3",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/fire-lmg-3.mp3",
+      "source": "https://www.magnific.com/app/creation/SyAaJrEUb8?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Fire m40",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/fire-m40.mp3",
+      "source": "https://www.magnific.com/app/creation/nVtg02RYQD?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Fire m40 2",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/fire-m40-2.mp3",
+      "source": "https://www.magnific.com/app/creation/nVtg02RYQD?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Fire m40 3",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/fire-m40-3.mp3",
+      "source": "https://www.magnific.com/app/creation/nVtg02RYQD?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Fire pistol",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/fire-pistol.mp3",
+      "source": "https://www.magnific.com/app/creation/cpvwDdY0eP?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Fire pistol 2",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/fire-pistol-2.mp3",
+      "source": "https://www.magnific.com/app/creation/cpvwDdY0eP?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Fire pistol 3",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/fire-pistol-3.mp3",
+      "source": "https://www.magnific.com/app/creation/cpvwDdY0eP?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Fire rpg",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/fire-rpg.mp3",
+      "source": "https://www.magnific.com/app/creation/YMmSVB0WeC?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Fire rpg 2",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/fire-rpg-2.mp3",
+      "source": "https://www.magnific.com/app/creation/YMmSVB0WeC?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Fire rpg 3",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/fire-rpg-3.mp3",
+      "source": "https://www.magnific.com/app/creation/YMmSVB0WeC?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Fire shotgun",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/fire-shotgun.mp3",
+      "source": "https://www.magnific.com/app/creation/MBEyXXEDCm?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Fire shotgun 2",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/fire-shotgun-2.mp3",
+      "source": "https://www.magnific.com/app/creation/MBEyXXEDCm?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Fire shotgun 3",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/fire-shotgun-3.mp3",
+      "source": "https://www.magnific.com/app/creation/MBEyXXEDCm?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Fire smg",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/fire-smg.mp3",
+      "source": "https://www.magnific.com/app/creation/xS68lmvjfW?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Fire smg 2",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/fire-smg-2.mp3",
+      "source": "https://www.magnific.com/app/creation/xS68lmvjfW?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Fire smg 3",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/fire-smg-3.mp3",
+      "source": "https://www.magnific.com/app/creation/xS68lmvjfW?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Gear shift",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/gear-shift.mp3",
+      "source": "https://www.magnific.com/app/creation/rgNBkFSxtc?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Gear shift 2",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/gear-shift-2.mp3",
+      "source": "https://www.magnific.com/app/creation/rgNBkFSxtc?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Glass break",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/glass-break.mp3",
+      "source": "https://www.magnific.com/app/creation/9ZVqPfeNYZ?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Glass break 2",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/glass-break-2.mp3",
+      "source": "https://www.magnific.com/app/creation/9ZVqPfeNYZ?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Gravel step",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/gravel-step.mp3",
+      "source": "https://www.magnific.com/app/creation/gO2hln7SXO?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Gravel step 2",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/gravel-step-2.mp3",
+      "source": "https://www.magnific.com/app/creation/gO2hln7SXO?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Harbor ambience",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/harbor-ambience.mp3",
+      "source": "https://www.magnific.com/app/creation/O6Wu72Wynm?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 193141
+    },
+    {
+      "name": "Heli rotor",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/heli-rotor.mp3",
+      "source": "https://www.magnific.com/app/creation/3zek6AxREY?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 193141
+    },
+    {
+      "name": "Heli start",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/heli-start.mp3",
+      "source": "https://www.magnific.com/app/creation/eIF4DRTdqL?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Heli start 2",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/heli-start-2.mp3",
+      "source": "https://www.magnific.com/app/creation/eIF4DRTdqL?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Heli stop",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/heli-stop.mp3",
+      "source": "https://www.magnific.com/app/creation/XmqNezMBfo?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Heli stop 2",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/heli-stop-2.mp3",
+      "source": "https://www.magnific.com/app/creation/XmqNezMBfo?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Impact concrete",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/impact-concrete.mp3",
+      "source": "https://www.magnific.com/app/creation/dtH9pl6XSL?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Impact concrete 2",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/impact-concrete-2.mp3",
+      "source": "https://www.magnific.com/app/creation/dtH9pl6XSL?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Impact metal",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/impact-metal.mp3",
+      "source": "https://www.magnific.com/app/creation/VXCJ0KuMMU?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Impact metal 2",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/impact-metal-2.mp3",
+      "source": "https://www.magnific.com/app/creation/VXCJ0KuMMU?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Industrial ambience",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/industrial-ambience.mp3",
+      "source": "https://www.magnific.com/app/creation/lJZmL63gv9?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 193141
+    },
+    {
+      "name": "Jeep door",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/jeep-door.mp3",
+      "source": "https://www.magnific.com/app/creation/0eawWOsTfW?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Jeep door 2",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/jeep-door-2.mp3",
+      "source": "https://www.magnific.com/app/creation/0eawWOsTfW?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Jeep engine",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/jeep-engine.mp3",
+      "source": "https://www.magnific.com/app/creation/XmqNpXaBfo?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 193141
+    },
+    {
+      "name": "Jeep start",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/jeep-start.mp3",
+      "source": "https://www.magnific.com/app/creation/N2Mb4QB6D9?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Jeep start 2",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/jeep-start-2.mp3",
+      "source": "https://www.magnific.com/app/creation/N2Mb4QB6D9?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Jeep stop",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/jeep-stop.mp3",
+      "source": "https://www.magnific.com/app/creation/O6Wu7Ebynm?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Jeep stop 2",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/jeep-stop-2.mp3",
+      "source": "https://www.magnific.com/app/creation/O6Wu7Ebynm?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Music briefing",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/music-briefing.mp3",
+      "source": "https://www.magnific.com/app/creation/UPGaSMywny?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 746200
+    },
+    {
+      "name": "Music defeat",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/music-defeat.mp3",
+      "source": "https://www.magnific.com/app/creation/EbgWCAUuuO?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 746200
+    },
+    {
+      "name": "Music victory",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/music-victory.mp3",
+      "source": "https://www.magnific.com/app/creation/ov5iBUW829?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 746200
+    },
+    {
+      "name": "Radio ahead",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-ahead.mp3",
+      "source": "https://www.magnific.com/app/creation/CqlW0KuEEy?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 15090
+    },
+    {
+      "name": "Radio alert",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-alert.mp3",
+      "source": "https://www.magnific.com/app/creation/p8Q49MGehw?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 14254
+    },
+    {
+      "name": "Radio ammo",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-ammo.mp3",
+      "source": "https://www.magnific.com/app/creation/N2M5nqT6D9?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 23449
+    },
+    {
+      "name": "Radio base",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-base.mp3",
+      "source": "https://www.magnific.com/app/creation/Lw3tmFpswO?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 15926
+    },
+    {
+      "name": "Radio boarding",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-boarding.mp3",
+      "source": "https://www.magnific.com/app/creation/KLPdjmxkqp?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 48527
+    },
+    {
+      "name": "Radio capture",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-capture.mp3",
+      "source": "https://www.magnific.com/app/creation/TdfJeQjVNR?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 57722
+    },
+    {
+      "name": "Radio careful",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-careful.mp3",
+      "source": "https://www.magnific.com/app/creation/6ADK12piJO?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 15926
+    },
+    {
+      "name": "Radio clear",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-clear.mp3",
+      "source": "https://www.magnific.com/app/creation/gO2v95JSXO?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 16762
+    },
+    {
+      "name": "Radio contested",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-contested.mp3",
+      "source": "https://www.magnific.com/app/creation/p8Q4okzehw?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 48527
+    },
+    {
+      "name": "Radio copy",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-copy.mp3",
+      "source": "https://www.magnific.com/app/creation/iGpkcvL3uK?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 15090
+    },
+    {
+      "name": "Radio correct",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-correct.mp3",
+      "source": "https://www.magnific.com/app/creation/gO2vaQpSXO?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 13000
+    },
+    {
+      "name": "Radio cover",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-cover.mp3",
+      "source": "https://www.magnific.com/app/creation/aFLn5WFfSh?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 20942
+    },
+    {
+      "name": "Radio defeat",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-defeat.mp3",
+      "source": "https://www.magnific.com/app/creation/tC12fzjmZJ?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 56886
+    },
+    {
+      "name": "Radio fallback",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-fallback.mp3",
+      "source": "https://www.magnific.com/app/creation/rgNo79Bxtc?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 25539
+    },
+    {
+      "name": "Radio fuel",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-fuel.mp3",
+      "source": "https://www.magnific.com/app/creation/Ebgc13quuO?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 42675
+    },
+    {
+      "name": "Radio go",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-go.mp3",
+      "source": "https://www.magnific.com/app/creation/SyAa66rUb8?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 11328
+    },
+    {
+      "name": "Radio ground",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-ground.mp3",
+      "source": "https://www.magnific.com/app/creation/IfkZ2yhtvE?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 15090
+    },
+    {
+      "name": "Radio here",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-here.mp3",
+      "source": "https://www.magnific.com/app/creation/1l9B76Er4r?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 12164
+    },
+    {
+      "name": "Radio hold",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-hold.mp3",
+      "source": "https://www.magnific.com/app/creation/O6WQZAiynm?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 25539
+    },
+    {
+      "name": "Radio incoming",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-incoming.mp3",
+      "source": "https://www.magnific.com/app/creation/cpvwBeZ0eP?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 42675
+    },
+    {
+      "name": "Radio landing",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-landing.mp3",
+      "source": "https://www.magnific.com/app/creation/Xmq6tnWBfo?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 49363
+    },
+    {
+      "name": "Radio lowammo",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-lowammo.mp3",
+      "source": "https://www.magnific.com/app/creation/Bhbim9xoQR?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 41004
+    },
+    {
+      "name": "Radio medic",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-medic.mp3",
+      "source": "https://www.magnific.com/app/creation/6ADKYQeiJO?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 25539
+    },
+    {
+      "name": "Radio moving",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-moving.mp3",
+      "source": "https://www.magnific.com/app/creation/ks4XUmI16B?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 17598
+    },
+    {
+      "name": "Radio no",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-no.mp3",
+      "source": "https://www.magnific.com/app/creation/Lw3tPgiswO?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 10911
+    },
+    {
+      "name": "Radio now",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-now.mp3",
+      "source": "https://www.magnific.com/app/creation/cpvwoFd0eP?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 13836
+    },
+    {
+      "name": "Radio ok",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-ok.mp3",
+      "source": "https://www.magnific.com/app/creation/6ADKWGUiJO?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 13836
+    },
+    {
+      "name": "Radio quick",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-quick.mp3",
+      "source": "https://www.magnific.com/app/creation/CqlWcGiEEy?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 14254
+    },
+    {
+      "name": "Radio ready",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-ready.mp3",
+      "source": "https://www.magnific.com/app/creation/UPGf6jVwny?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 13836
+    },
+    {
+      "name": "Radio reload",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-reload.mp3",
+      "source": "https://www.magnific.com/app/creation/xS68JZFjfW?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 19688
+    },
+    {
+      "name": "Radio repair",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-repair.mp3",
+      "source": "https://www.magnific.com/app/creation/Lw3tyWIswO?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 24285
+    },
+    {
+      "name": "Radio revive",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-revive.mp3",
+      "source": "https://www.magnific.com/app/creation/gO2vJoiSXO?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 47691
+    },
+    {
+      "name": "Radio safe",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-safe.mp3",
+      "source": "https://www.magnific.com/app/creation/IfkZ2ZHtvE?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 15090
+    },
+    {
+      "name": "Radio spot",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-spot.mp3",
+      "source": "https://www.magnific.com/app/creation/gO2vJVQSXO?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 24285
+    },
+    {
+      "name": "Radio standby",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-standby.mp3",
+      "source": "https://www.magnific.com/app/creation/dtHN6TjXSL?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 17598
+    },
+    {
+      "name": "Radio start",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-start.mp3",
+      "source": "https://www.magnific.com/app/creation/aFLnQsMfSh?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 69425
+    },
+    {
+      "name": "Radio stop",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-stop.mp3",
+      "source": "https://www.magnific.com/app/creation/MBEymCqDCm?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 13000
+    },
+    {
+      "name": "Radio suppression",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-suppression.mp3",
+      "source": "https://www.magnific.com/app/creation/w4zCPj97EI?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 50199
+    },
+    {
+      "name": "Radio target",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-target.mp3",
+      "source": "https://www.magnific.com/app/creation/tC12AUwmZJ?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 13836
+    },
+    {
+      "name": "Radio transport",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-transport.mp3",
+      "source": "https://www.magnific.com/app/creation/SyAaOdzUb8?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 58140
+    },
+    {
+      "name": "Radio victory",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-victory.mp3",
+      "source": "https://www.magnific.com/app/creation/BhbimisoQR?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 51035
+    },
+    {
+      "name": "Radio wait",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-wait.mp3",
+      "source": "https://www.magnific.com/app/creation/WDhU7omcXe?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 15926
+    },
+    {
+      "name": "Radio yes",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/radio-yes.mp3",
+      "source": "https://www.magnific.com/app/creation/iGpkWNp3uK?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 11328
+    },
+    {
+      "name": "Reload ar",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/reload-ar.mp3",
+      "source": "https://www.magnific.com/app/creation/p8QPMDSehw?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 48945
+    },
+    {
+      "name": "Reload ar 2",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/reload-ar-2.mp3",
+      "source": "https://www.magnific.com/app/creation/p8QPMDSehw?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 48945
+    },
+    {
+      "name": "Reload pistol",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/reload-pistol.mp3",
+      "source": "https://www.magnific.com/app/creation/DouyMIhpcl?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 48945
+    },
+    {
+      "name": "Reload pistol 2",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/reload-pistol-2.mp3",
+      "source": "https://www.magnific.com/app/creation/DouyMIhpcl?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 48945
+    },
+    {
+      "name": "Reload sniper",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/reload-sniper.mp3",
+      "source": "https://www.magnific.com/app/creation/lJZmsw7gv9?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 48945
+    },
+    {
+      "name": "Reload sniper 2",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/reload-sniper-2.mp3",
+      "source": "https://www.magnific.com/app/creation/lJZmsw7gv9?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 48945
+    },
+    {
+      "name": "Tire skid",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/tire-skid.mp3",
+      "source": "https://www.magnific.com/app/creation/SyAvlj5Ub8?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Tire skid 2",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/tire-skid-2.mp3",
+      "source": "https://www.magnific.com/app/creation/SyAvlj5Ub8?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 33062
+    },
+    {
+      "name": "Urban ambience",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/urban-ambience.mp3",
+      "source": "https://www.magnific.com/app/creation/rgNBk4cxtc?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 193141
+    },
+    {
+      "name": "Wind",
+      "category": "ÁUDIO",
+      "url": "/assets/magnific/expansion/audio/wind.mp3",
+      "source": "https://www.magnific.com/app/creation/8aKRhNBIrU?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 193141
+    },
+    {
+      "name": "Nordhaven",
+      "category": "CENÁRIOS",
+      "url": "/assets/magnific/expansion/briefings/nordhaven.webp",
+      "source": "https://www.magnific.com/app/creation/tC12ulBmZJ?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 30106
+    },
+    {
+      "name": "Pedreira",
+      "category": "CENÁRIOS",
+      "url": "/assets/magnific/expansion/briefings/quarry.webp",
+      "source": "https://www.magnific.com/app/creation/EbgcK6quuO?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 40940
+    },
+    {
+      "name": "Porto",
+      "category": "CENÁRIOS",
+      "url": "/assets/magnific/expansion/briefings/harbor.webp",
+      "source": "https://www.magnific.com/app/creation/Lw3tJpuswO?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 19302
+    },
+    {
+      "name": "Caixa de suprimentos",
+      "category": "REFERÊNCIAS",
+      "url": "/assets/magnific/expansion/ref/crate.webp",
+      "source": "https://www.magnific.com/app/creation/EbgWdTYuuO?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 53316
+    },
+    {
+      "name": "Caminhão de carga",
+      "category": "REFERÊNCIAS",
+      "url": "/assets/magnific/expansion/ref/truck.webp",
+      "source": "https://www.magnific.com/app/creation/P30HZVI42C?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 31804
+    },
+    {
+      "name": "Carabina MK18",
+      "category": "REFERÊNCIAS",
+      "url": "/assets/magnific/expansion/ref/ar.webp",
+      "source": "https://www.magnific.com/app/creation/ks4dvJ016B?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 13464
+    },
+    {
+      "name": "Espingarda tática",
+      "category": "REFERÊNCIAS",
+      "url": "/assets/magnific/expansion/ref/shotgun.webp",
+      "source": "https://www.magnific.com/app/creation/MBEORSpDCm?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 13002
+    },
+    {
+      "name": "Fuzil AK",
+      "category": "REFERÊNCIAS",
+      "url": "/assets/magnific/expansion/ref/ak.webp",
+      "source": "https://www.magnific.com/app/creation/IfkRcrGtvE?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 11586
+    },
+    {
+      "name": "Gerador de campo",
+      "category": "REFERÊNCIAS",
+      "url": "/assets/magnific/expansion/ref/generator.webp",
+      "source": "https://www.magnific.com/app/creation/lJZhy4bgv9?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 26482
+    },
+    {
+      "name": "Helicóptero utilitário",
+      "category": "REFERÊNCIAS",
+      "url": "/assets/magnific/expansion/ref/helicopter.webp",
+      "source": "https://www.magnific.com/app/creation/8aK3WfzIrU?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 20808
+    },
+    {
+      "name": "Jipe de transporte",
+      "category": "REFERÊNCIAS",
+      "url": "/assets/magnific/expansion/ref/jeep.webp",
+      "source": "https://www.magnific.com/app/creation/YMmg40XWeC?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 22392
+    },
+    {
+      "name": "Pistola de serviço",
+      "category": "REFERÊNCIAS",
+      "url": "/assets/magnific/expansion/ref/pistol.webp",
+      "source": "https://www.magnific.com/app/creation/1l9Xadnr4r?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 18684
+    },
+    {
+      "name": "Radar de campo",
+      "category": "REFERÊNCIAS",
+      "url": "/assets/magnific/expansion/ref/radar.webp",
+      "source": "https://www.magnific.com/app/creation/79nE6GIJAL?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 17424
+    },
+    {
+      "name": "Rifle AWM",
+      "category": "REFERÊNCIAS",
+      "url": "/assets/magnific/expansion/ref/awm.webp",
+      "source": "https://www.magnific.com/app/creation/u5ScX3TQLD?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 12218
+    },
+    {
+      "name": "Rifle M40",
+      "category": "REFERÊNCIAS",
+      "url": "/assets/magnific/expansion/ref/m40.webp",
+      "source": "https://www.magnific.com/app/creation/rgNBfz7xtc?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 12434
+    },
+    {
+      "name": "Tambor de combustível",
+      "category": "REFERÊNCIAS",
+      "url": "/assets/magnific/expansion/ref/fuel.webp",
+      "source": "https://www.magnific.com/app/creation/ov53fvk829?utm_source=mcp&utm_medium=ai_connector",
+      "bytes": 22624
+    }
+  ]
+}

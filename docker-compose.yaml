@@ -1,0 +1,24 @@
+services:
+  warcats:
+    build: .
+    image: warcats-web:latest
+    restart: unless-stopped
+    ports:
+      - "80:3001"
+    environment:
+      NODE_ENV: production
+      PORT: 3001
+      DATA_DIR: /app/data
+      ACCOUNT_BACKEND: ${ACCOUNT_BACKEND:-supabase}
+      SUPABASE_URL: ${SUPABASE_URL:-}
+      SUPABASE_ANON_KEY: ${SUPABASE_ANON_KEY:-}
+      SUPABASE_SERVICE_ROLE_KEY: ${SUPABASE_SERVICE_ROLE_KEY:-}
+      SECURE_COOKIES: ${SECURE_COOKIES:-false}
+      TRUST_PROXY: ${TRUST_PROXY:-false}
+      MAX_ROOMS: ${MAX_ROOMS:-12}
+      ALLOWED_ORIGINS: ${ALLOWED_ORIGINS:-}
+    volumes:
+      - warcats-data:/app/data
+    stop_grace_period: 10s
+volumes:
+  warcats-data:
